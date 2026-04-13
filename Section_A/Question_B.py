@@ -47,7 +47,7 @@ df_year_model['GDP_Group'] = pd.qcut(
     labels=['Low', 'Medium', 'High']
 )
 
-# Elasticity under different GDP conditions
+# Elasticity under different GDP levels
 elasticity_by_gdp = df_year_model.groupby(['GDP_Group', 'Model']).apply(
     lambda x: x[['Avg_Price_EUR', 'Units_Sold']].corr().iloc[0, 1]
 ).to_frame(name='price_units_corr')
