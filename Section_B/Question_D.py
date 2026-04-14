@@ -33,9 +33,7 @@ def compute_kawaiiness(t: int, test_cases: List[Tuple[int, int]]):
 
     for _ in range(t):
         current, remaining = process_test_cases(remaining)
-        kawaiiness.append(compute_cuteness(current))
-
-    return kawaiiness
+        print(compute_cuteness(current))
 
 
 # Process the test cases to separate the current tree and the rest of the trees
@@ -155,7 +153,7 @@ def start():
             u, v = map(int, input().split())
             test_cases.append((u, v))
 
-    print(compute_kawaiiness(t, test_cases))
+    compute_kawaiiness(t, test_cases)
 
 
 if __name__ == '__main__':
@@ -164,7 +162,9 @@ if __name__ == '__main__':
     Run the code with custom test cases by uncommenting the block below and commenting out start().
     
     Expected output:
-        [2, 9, 17]
+        2
+        9
+        17
     """
     # t = 3
     # test_cases = [
@@ -173,11 +173,11 @@ if __name__ == '__main__':
     #     (6, 3), (1, 2), (1, 3), (2, 4), (2, 5), (3, 6)
     # ]
     #
-    # print(compute_kawaiiness(t, test_cases))
+    # compute_kawaiiness(t, test_cases)
 
     """
     Usage 2: 
-    Run the code with standard input (e.g., from a file or terminal) by uncommenting the line below.
+    Run the code with standard input (e.g., from a file or terminal) by uncommenting the line below and comment above.
     
     Example input (typed or piped):
         3
@@ -196,6 +196,8 @@ if __name__ == '__main__':
         3 6
     
     Expected output:
-        [2, 9, 17]
+        2
+        9
+        17
     """
     start()
