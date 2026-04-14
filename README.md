@@ -1,7 +1,9 @@
 # Solume IT Support Coding Interview – Xingyu Ji
 
 ## Overview
-Solutions for Solume IT Support Coding Interview.
+Solutions for Solum Coding Interview.
+
+## Instructions to run locally
 
 ## Table of Contents
 - [Section A – Data Analysis](#section-a--data-analysis)

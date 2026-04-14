@@ -9,8 +9,8 @@ and do these patterns interact differently with regional economic indicators (GD
 Answer:
 Both Units_Sold and Revenue_EUR show a clear and recurring monthly seasonal pattern.
 
- - Revenue_EUR and Units_Sold are relatively lower in January–February, April–May, July–August, and October–November
- - Strong peaks are observed in March (~8966 units, ~574 million EUR), June (~8987 units, ~577 million EUR),
+• Revenue_EUR and Units_Sold are relatively lower in January–February, April–May, July–August, and October–November
+• Strong peaks are observed in March (~8966 units, ~574 million EUR), June (~8987 units, ~577 million EUR),
  September (~8581 units, ~550 million EUR) and December (~8749 units, ~565 million EUR)
 
 This suggests a repeated three-month cycle, 
@@ -25,15 +25,15 @@ GDP_Growth is grouped into Low, Medium, and High levels using quantiles.
 
 Seasonal patterns remain consistent across different GDP growth levels.
 
- - Across all GDP_growth groups, peaks consistently occur in March, June, September, and December
+• Across all GDP_growth groups, peaks consistently occur in March, June, September, and December
  
 This indicates that the overall seasonal structure is stable and not significantly altered by GDP growth.
 
 However, the magnitude of these patterns varies with GDP levels:
 
- - Under High GDP growth, both Units_Sold and Revenue_EUR are higher
- - Under Low GDP growth, both Units_Sold and Revenue_EUR are lower
- - Under Medium GDP growth, values fall in between, but still follow the same seasonal pattern
+• Under High GDP growth, both Units_Sold and Revenue_EUR are higher
+• Under Low GDP growth, both Units_Sold and Revenue_EUR are lower
+• Under Medium GDP growth, values fall in between, but still follow the same seasonal pattern
  
 Therefore, seasonality does not change structurally with GDP growth, 
 but stronger GDP growth amplifies overall demand, leading to higher Revenue_EUR, Units_Sold and peaks.
@@ -43,15 +43,15 @@ Fuel_Price_Index is grouped into Low, Medium, and High levels using quantiles.
 
 Seasonal patterns remain consistent across different fuel price.
 
- - Across all Fuel_Price_Index groups, peaks consistently occur in March, June, September, and December
+• Across all Fuel_Price_Index groups, peaks consistently occur in March, June, September, and December
  
 This indicates that the overall seasonal structure is stable and not significantly altered by fuel price.
 
 However, the magnitude of these patterns varies with fuel price levels:
 
- - Under High fuel price, both Units_Sold and Revenue_EUR are higher
- - Under Low fuel price, both Units_Sold and Revenue_EUR are lower
- - Under Medium fuel price, values fall in between, but still follow the same seasonal pattern
+• Under High fuel price, both Units_Sold and Revenue_EUR are higher
+• Under Low fuel price, both Units_Sold and Revenue_EUR are lower
+• Under Medium fuel price, values fall in between, but still follow the same seasonal pattern
 
 Therefore, seasonality does not change structurally with fuel price, 
 but stronger fuel price amplifies overall demand, leading to higher Revenue_EUR, Units_Sold and peaks.

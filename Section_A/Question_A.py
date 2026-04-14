@@ -8,9 +8,9 @@ and which region shows the strongest transition toward electrification?
 Answer:
 BEV_Share shows a strong positive correlation with both Units_Sold and Revenue_EUR across all regions.
 
- - USA (~0.98) and China (~0.95) exhibit the strongest correlations
- - Europe (~0.81–0.84) shows a slightly weaker correlation
- - Rest of World (~0.79) demonstrates the weakest correlation
+• USA (~0.98) and China (~0.95) exhibit the strongest correlations
+• Europe (~0.81–0.84) shows a slightly weaker correlation
+• Rest of World (~0.79) demonstrates the weakest correlation
  
 In terms of growth, all regions experienced a very similar increase in BEV_Share (≈0.173–0.174) from 2018 to 2025, 
 indicating a globally consistent electrification trend. However, since growth differences are minimal, 

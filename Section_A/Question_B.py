@@ -13,11 +13,11 @@ This analysis uses correlation as a proxy for price elasticity in an exploratory
 
 Price elasticity varies significantly across different GDP growth conditions:
 
- - Under Low GDP growth, several models such as i4 (~-0.996) and X3 (~-0.998) show strong negative correlations, 
+• Under Low GDP growth, several models such as i4 (~-0.996) and X3 (~-0.998) show strong negative correlations, 
  indicating very high price sensitivity as consumers become more price-conscious.
- - Under Medium GDP growth, elasticity remains strong for some models (e.g., X7 (-1.00), i4 (-0.83)), 
+• Under Medium GDP growth, elasticity remains strong for some models (e.g., X7 (-1.00), i4 (-0.83)), 
  but becomes more mixed across models.
- - Under High GDP growth, correlations become extreme (±1.00) due to limited observations, 
+• Under High GDP growth, correlations become extreme (±1.00) due to limited observations, 
 but generally indicate weaker or less reliable price sensitivity patterns.
 
 Overall, price elasticity tends to be stronger and more consistent under lower GDP growth conditions, 
