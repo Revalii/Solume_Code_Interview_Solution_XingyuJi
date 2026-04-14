@@ -23,7 +23,7 @@ but generally indicate weaker or less reliable price sensitivity patterns.
 Overall, price elasticity tends to be stronger and more consistent under lower GDP growth conditions, 
 while under higher GDP growth, demand becomes less predictably sensitive to price changes.
 """
-df = pd.read_csv("bmw_global_sales_2018_2025.csv")
+df = pd.read_csv("../bmw_global_sales_2018_2025.csv")
 
 # Aggregate to yearly region level (remove monthly noise)
 df_year_model = df.groupby(['Year', 'Model']).agg({

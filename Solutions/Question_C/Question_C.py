@@ -56,7 +56,7 @@ However, the magnitude of these patterns varies with fuel price levels:
 Therefore, seasonality does not change structurally with fuel price, 
 but stronger fuel price amplifies overall demand, leading to higher Revenue_EUR, Units_Sold and peaks.
 """
-df = pd.read_csv("bmw_global_sales_2018_2025.csv")
+df = pd.read_csv("../bmw_global_sales_2018_2025.csv")
 
 # Aggregate by Month
 monthly_trend = df.groupby('Month').agg({

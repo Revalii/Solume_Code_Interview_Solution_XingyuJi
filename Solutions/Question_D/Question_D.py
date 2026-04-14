@@ -28,12 +28,12 @@ For each test case, output a single integer — the kawaiiness of the tree.
 
 
 def compute_kawaiiness(t: int, test_cases: List[Tuple[int, int]]):
-    kawaiiness = []
     remaining = test_cases
 
     for _ in range(t):
         current, remaining = process_test_cases(remaining)
-        print(compute_cuteness(current))
+        kawaiiness = compute_cuteness(current)
+        print(kawaiiness)
 
 
 # Process the test cases to separate the current tree and the rest of the trees

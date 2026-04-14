@@ -19,7 +19,7 @@ the strongest transition should be evaluated based on overall impact rather than
 While BEV adoption is increasing globally, Europe shows the strongest transition toward electrification, 
 as it combines steady growth with strong and consistent links to both sales and revenue.
 """
-df = pd.read_csv("bmw_global_sales_2018_2025.csv")
+df = pd.read_csv("../bmw_global_sales_2018_2025.csv")
 
 # Aggregate to yearly region level (remove monthly noise)
 df_year_region = df.groupby(['Year', 'Region']).agg({
