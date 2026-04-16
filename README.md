@@ -15,5 +15,5 @@ Solutions for Solum Coding Interview.
   - [Question D](./Solutions/Section_B/Question_D/Question_D.py)
 
 - [Section C – Full Stack Interview Assignment](./Solutions/Section_C/)
-  - [Question E](./Solutions/Section_C/)
+  - [Question E](./Solutions/Section_C/Question_E)
 
