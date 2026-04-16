@@ -14,6 +14,7 @@ Solutions for Solum Coding Interview.
 - pandas
 
 Install:
+
 ```bash
 pip install pandas
 ```
@@ -92,3 +93,13 @@ http://localhost:5173
 - [Section C – Full Stack Interview Assignment](./Solutions/Section_C/)
     - [Question E](./Solutions/Section_C/Question_E)
 
+## Data Usage
+
+- The dataset used for this project is **"Dialysis Facility – Listing by Facility"
+  **: https://data.cms.gov/provider-data/dataset/23ew-n7w9
+
+- None of the available datasets ("Listing by Facility", "State Averages" and "National Averages")
+  include **monthly-level data**, therefore:
+
+    - The **monthlyTrend analysis in Question E could not be implemented**
+    - The analysis endpoint returns an empty list for `monthlyTrend`
