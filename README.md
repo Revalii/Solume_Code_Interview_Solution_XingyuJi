@@ -55,9 +55,12 @@ http://127.0.0.1:8000/docs
 - npm
 
 Install dependencies and run:
+
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 Frontend will be available at:
 
