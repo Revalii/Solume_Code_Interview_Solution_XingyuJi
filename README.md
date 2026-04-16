@@ -14,7 +14,9 @@ Solutions for Solum Coding Interview.
 - pandas
 
 Install:
+```bash
 pip install pandas
+```
 
 #### Question E
 
