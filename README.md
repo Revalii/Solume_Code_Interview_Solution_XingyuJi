@@ -1,4 +1,4 @@
-# Solum IT Support Coding Interview – Xingyu Ji
+# Solum Coding Interview – Xingyu Ji
 
 ## Overview
 Solutions for Solum Coding Interview.
