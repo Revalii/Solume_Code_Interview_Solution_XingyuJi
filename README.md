@@ -1,12 +1,8 @@
 # Solum Coding Interview – Xingyu Ji
 
----
-
 ## Overview
 
 Solutions for Solum Coding Interview.
-
----
 
 ## Instructions to Run Locally
 
@@ -29,22 +25,26 @@ pip install pandas
 - pandas
 
 Install dependencies:
+
 ```bash
 cd backend
 pip install -r requirements.txt
 ```
 
 Run the backend:
+
 ```bash
 uvicorn main:app --reload
 ```
 
 Backend will be available at:
+
 ```bash
 http://127.0.0.1:8000
 ```
 
 API documentation (Swagger UI):
+
 ```bash
 http://127.0.0.1:8000/docs
 ```
@@ -60,6 +60,7 @@ npm install
 npm run dev
 
 Frontend will be available at:
+
 ```bash
 http://localhost:5173
 ```
@@ -68,11 +69,10 @@ http://localhost:5173
 
 - Make sure the backend is running before starting the frontend
 - The frontend is configured to call the backend at:
+
 ```bash
   http://127.0.0.1:8000
 ```
-
----
 
 ## Table of Contents
 
