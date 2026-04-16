@@ -95,8 +95,8 @@ http://localhost:5173
 
 ## Data Usage
 
-- The dataset used for this project is **"Dialysis Facility – Listing by Facility"
-  **: https://data.cms.gov/provider-data/dataset/23ew-n7w9
+- The dataset used for this project is **"Dialysis Facility – Listing by Facility"**: 
+https://data.cms.gov/provider-data/dataset/23ew-n7w9
 
 - None of the available datasets ("Listing by Facility", "State Averages" and "National Averages")
   include **monthly-level data**, therefore:
